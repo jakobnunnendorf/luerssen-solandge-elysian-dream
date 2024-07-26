@@ -10,7 +10,7 @@ function Hero() {
                 width={1440} height={634}
                 className="z-0"
             />
-            <div className="absolute top-0 w-full h-full bg-black opacity-70 z-10"></div>
+            <div className="absolute top-0 w-full h-full bg-[#091928] opacity-70 z-10"></div>
         </figure>
     );
 }
