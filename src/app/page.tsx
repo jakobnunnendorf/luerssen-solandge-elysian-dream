@@ -7,6 +7,8 @@ import Milestones from "./Milestones/Milestones";
 import GalleryPreview from "@/app/GalleryPreview";
 import Specifications from "@/app/Specifications/Specifications";
 import Interior from "@/app/Interior";
+import DiningArea from "@/app/DiningArea/DiningArea";
+import SunDeck from "@/app/SunDeck/SunDeck";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
           <GalleryPreview/>
           <Specifications/>
           <Interior/>
+          <DiningArea/>
+          <SunDeck/>
       </main>
   );
 }
