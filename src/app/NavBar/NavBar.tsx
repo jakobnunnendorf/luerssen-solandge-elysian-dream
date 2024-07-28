@@ -18,7 +18,7 @@ function NavBar() {
                     <li className=" h-6 w-6"><Image src="/Instagram.png" width={80} height={80} alt="test"/></li>
                     <li className=" h-6 w-6"><Image src="/Twitter.png" width={80} height={80} alt="test"/></li>
                     <li className=" h-6 w-6"><Image src="/Facebook.png" width={80} height={80} alt="test"/></li>
-                    <li className=" h-6 w-6"><Image src="/Youtube.png" width={80} height={80} alt="test"/></li>
+                    <li className=" h-6 w-6"><Image src="/YouTube.png" width={80} height={80} alt="test"/></li>
                 </ul>
             </div>
         </nav>
