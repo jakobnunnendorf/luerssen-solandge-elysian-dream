@@ -18,6 +18,11 @@ export default function RootLayout({
       <body>
         <NavBar/>
         {children}
+      <footer className="flex items-center justify-center bg-[#A37C45] h-24 text-center text-white">
+          <p>
+        Copyright@2024 BlueWater Interiors | All rights reserved.
+          </p>
+      </footer>
       </body>
     </html>
   );
