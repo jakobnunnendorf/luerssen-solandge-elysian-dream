@@ -6,6 +6,7 @@ import InfoCards from "./InfoCards/InfoCards";
 import Milestones from "./Milestones/Milestones";
 import GalleryPreview from "@/app/GalleryPreview";
 import Specifications from "@/app/Specifications/Specifications";
+import Interior from "@/app/Interior";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Milestones/>
           <GalleryPreview/>
           <Specifications/>
+          <Interior/>
       </main>
   );
 }
