@@ -10,6 +10,7 @@ import Interior from "@/app/Interior";
 import DiningArea from "@/app/DiningArea/DiningArea";
 import SunDeck from "./SunDeck/SunDeck";
 import Availability from "./Availability";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <DiningArea/>
           <SunDeck/>
           <Availability/>
+          <Contact/>
       </main>
   );
 }
