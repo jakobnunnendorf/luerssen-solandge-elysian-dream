@@ -4,4 +4,8 @@
 
 .rborder{
     border: 3px solid red;
+}.gborder{
+    border: 3px solid green;
+}.bborder{
+    border: 3px solid blue;
 }
