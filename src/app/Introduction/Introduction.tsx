@@ -11,11 +11,11 @@ function Introduction() {
             <div className="col-span-2 w-full h-4/5">
                 <div>
                     <h2 className="text-4xl">Brief Introduction to the Luxury Yacht</h2>
-                    <p className="">The "Elysian Dream" embodies the pinnacle of opulence and elegance on the water.
+                    <p className="">The &quot;Elysian Dream&quot; embodies the pinnacle of opulence and elegance on the water.
                         This exquisite yacht offers unparalleled comfort and sophistication,
                         ensuring an unforgettable yachting experience. With state-of-the-art amenities, bespoke
                         interiors,
-                        and a timeless design, the "Elysian Dream" is your sanctuary on the high seas.</p>
+                        and a timeless design, the &quot;Elysian Dream&quot; is your sanctuary on the high seas.</p>
                 </div>
                 <div>
                     <h2>Key Features and Highlights</h2>

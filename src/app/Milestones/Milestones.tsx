@@ -40,7 +40,7 @@ function Milestones() {
             <h2 className="text-3xl text-center p-8">Key Milestones and Achievements</h2>
             <ul className="grid grid-cols-3 px-24 gap-x-8 h-fit">
             {cards.map((card, index) => (
-                <li><InfoCard key={index} src={card.src} title={card.title} text={card.text} alt={card.alt} /></li>
+                <li key={index}><InfoCard src={card.src} title={card.title} text={card.text} alt={card.alt} /></li>
             ))}
             </ul>
         </div>
