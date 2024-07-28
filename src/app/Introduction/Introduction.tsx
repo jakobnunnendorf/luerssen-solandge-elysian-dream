@@ -4,11 +4,11 @@ import Link from "next/link";
 
 function Introduction() {
     return (
-        <div className="rborder flex px-24 gap-x-8 h-fit">
-            <div className="gborder relative">
+        <div className=" flex px-24 gap-x-8 h-fit">
+            <div className=" relative">
                 <Image src="/designer.png" alt="" width={502} height={680}/>
             </div>
-            <div className="col-span-2 bborder w-full h-4/5">
+            <div className="col-span-2 w-full h-4/5">
                 <div>
                     <h2 className="text-4xl">Brief Introduction to the Luxury Yacht</h2>
                     <p className="">The "Elysian Dream" embodies the pinnacle of opulence and elegance on the water.
