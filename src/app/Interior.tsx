@@ -24,6 +24,4 @@ function Interior() {
     );
 }
 
-{/*bg-[#0A1928] p-8 h-[553px] w-[652px] rborder relative */
-}
 export default Interior;
