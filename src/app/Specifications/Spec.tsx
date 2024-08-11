@@ -5,7 +5,7 @@ function Spec({title, specList}:{title:string; specList:[string, string][]}) {
         <div className="p-2">
             <h3 className="text-xl">{title}</h3>
             <ul>
-                {specList.map((item:any)=><li key={item.id}>{item}</li>)}
+                {specList.map((item, index)=><li key={index}>{item}</li>)}
             </ul>
         </div>
     );

@@ -50,7 +50,7 @@ function Introduction() {
                     <h2 className="text-3xl font-serif py-2 pb-5">Key Features and Highlights</h2>
                     <ul className="grid grid-cols-2 gap-y-5 gap-x-28 w-full">
                         {features.map((feature, index) => (
-                            <Feature key={index} feature={feature} />
+                            <li key={index}><Feature feature={feature} /></li>
                         ))}
                     </ul>
                 </div>
