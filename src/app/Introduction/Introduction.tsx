@@ -4,12 +4,12 @@ import Link from "next/link";
 
 function Feature({ feature }: { feature: string }) {
     return (
-        <li className="flex justify-left  gap-x-2 items-center text-lg">
+        <div className="flex justify-left  gap-x-2 items-center text-lg">
             <figure className="h-4 w-4">
                 <Image src="/bullet.png" width={15} height={15} alt="check mark" />
             </figure>
             <p>{feature}</p>
-        </li>
+        </div>
     );
 }
 

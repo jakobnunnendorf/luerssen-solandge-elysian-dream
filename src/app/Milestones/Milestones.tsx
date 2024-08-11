@@ -36,9 +36,9 @@ function Milestones() {
     ];
 
     return (
-        <div className="p-16">
-            <h2 className="text-3xl text-center p-8">Key Milestones and Achievements</h2>
-            <ul className="grid grid-cols-3 px-24 gap-x-8 h-fit">
+        <div className=" p-16">
+            <h2 className="text-4xl text-center p-8 font-serif">Key Milestones and Achievements</h2>
+            <ul className=" grid grid-cols-3 w-fit mx-auto gap-5 h-fit">
             {cards.map((card, index) => (
                 <li key={index}><InfoCard src={card.src} title={card.title} text={card.text} alt={card.alt} /></li>
             ))}
